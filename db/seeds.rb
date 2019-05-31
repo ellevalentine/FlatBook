@@ -10,15 +10,25 @@ Comment.destroy_all
 #   Character.create(name: 'Luke', movie: movies.fir
 
 
-u1=User.create(username: "Elle", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
-u2=User.create(username: "Ben", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
-u3=User.create(username: "Tom", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
-u4=User.create(username: "Elle", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
-u5=User.create(username: "Ben", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
-u6=User.create(username: "Tom", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
-u7=User.create(username: "Elle", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
-u8=User.create(username: "Ben", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
-u9=User.create(username: "Tom", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u1=User.create(username: "Elle Valentine", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
+u2=User.create(username: "Francisco Costa", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
+u3=User.create(username: "Ayush Gehlot", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u4=User.create(username: "Danny Wakeling", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
+u5=User.create(username: "Dunia Al-Baghdadi", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
+u6=User.create(username: "Fernando Lopez", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u7=User.create(username: "Harriet Ballantyne", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
+u8=User.create(username: "Ivan Szebenszki", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
+u9=User.create(username: "Keven Lopez", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u10=User.create(username: "Fernando Lopez", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u11=User.create(username: "Harriet Ballantyne", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
+u12=User.create(username: "Leah Boyd", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
+u13=User.create(username: "Nahit Abu-Nijalia", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u14=User.create(username: "Patrick Hofmann", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u15=User.create(username: "Rebecca Huseyin", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
+u15=User.create(username: "Richie Downland", phrase: "54321", likes:0, image: "https://images-i.jpimedia.uk/imagefetch/c_fill,f_auto,h_1043,q_auto:eco,w_1600/https://inews.co.uk/wp-content/uploads/2018/05/tony-the-tiger.jpg")
+u17=User.create(username: "Xabier Casan", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u18=User.create(username: "Endy Ranaudo", phrase: "67899", likes:0, image: "https://talkingtomandfriends.com/wp-content/uploads/2015/03/characters_tom3.png")
+u19=User.create(username: "Ayesha Hashim", phrase: "12345", likes:0, image: "https://yt3.ggpht.com/a/AGF-l78O-Smr0uJ9af8af9zUfikpnaWmtKNQy0Wb_A=s900-mo-c-c0xffffffff-rj-k-no")
 
 
 
