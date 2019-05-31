@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20190528145956) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
+    t.string "bio"
     t.string "phrase"
     t.integer "likes"
     t.string "image"
